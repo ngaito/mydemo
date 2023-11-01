@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: https://github.com/ngaito/mydemo
     targetRevision: HEAD
-    path: .argo-cd-image-updater/frontend
+    path: argo-cd-image-updater/frontend
   destination:
     server: https://kubernetes.default.svc
     namespace: default
